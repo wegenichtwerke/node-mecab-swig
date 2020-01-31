@@ -2,6 +2,18 @@ nod.-mecab-swig
 -----
 MeCab bidning for node.js using swig and node-gyp
 
+
+Synopsis
+----
+There are already several node.js bindings for MeCab , such as 
+
+- mecab-async - npm https://www.npmjs.com/package/mecab-async
+- MeCab - npm https://www.npmjs.com/package/MeCab
+- umatoma/node-mecab-native: MeCab Node.js binding https://github.com/umatoma/node-mecab-native
+
+But none of them supports parseNBest() method, which is the main reason to produce this package.
+This binding is base on node-gyp and SWIG, like ones bundled wth Mecab original package.  Therefore the calling style of Mecab API is similar to java, python and ruby bindings. 
+
 Requirements
 -----
 - MeCab (mecab-0.996, mecab-ipadic, mecab-config)
