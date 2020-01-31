@@ -1,4 +1,4 @@
-nod.-mecab-swig
+node-mecab-swig
 -----
 MeCab bidning for node.js using swig and node-gyp
 
