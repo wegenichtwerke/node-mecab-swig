@@ -12,7 +12,7 @@ There are already several node.js bindings for MeCab , such as
 - umatoma/node-mecab-native: MeCab Node.js binding https://github.com/umatoma/node-mecab-native
 
 But none of them supports parseNBest() method, which is the main reason to produce this package.
-This binding is base on node-gyp and SWIG, like ones bundled wth Mecab original package.  Therefore the calling style of Mecab API is similar to java, python and ruby bindings. 
+This binding is based on node-gyp and SWIG, like ones bundled wth Mecab original package.  Therefore the calling style of Mecab API is similar to java, python and ruby bindings. 
 
 Requirements
 -----
