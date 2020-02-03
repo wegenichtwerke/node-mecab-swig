@@ -1,5 +1,5 @@
 { "targets": [ { 
-    "target_name": "MeCab",
+    "target_name": "MeCab_wrap",
     "sources": [ "MeCab_wrap.cxx" ] , 
 
     "cflags": ["-fexceptions" ] , 
