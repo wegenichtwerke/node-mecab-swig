@@ -220,7 +220,7 @@ for (var i = 0; i<10; i++){
 
 // dictionary info 
 
-out = tagger.dictionary_info();
+out = tagger.dictionary_info().filename;
 console.log(out);
 
 
