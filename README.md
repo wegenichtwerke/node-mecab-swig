@@ -1,6 +1,6 @@
 node-mecab-swig
 -----
-MeCab bidning for node.js using swig and node-gyp
+yet another MeCab bidning for node.js using swig and node-gyp
 
 
 Synopsis
