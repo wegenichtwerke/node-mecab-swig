@@ -7,7 +7,9 @@
     "cflags_cc": ["-fexceptions" ] ,
     "cflags_cc!": ["-fno-exceptions" ] ,
 
-    "libraries":[ "-L/usr/lib64", "-lmecab" ]     
+    "include_dirs": [ "<!(mecab-config --inc-dir)" ],
+
+    "libraries": ["<!(mecab-config --libs)", "-L/usr/lib64", "-lmecab" ]     
 
 
 } ] }
