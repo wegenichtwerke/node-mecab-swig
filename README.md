@@ -88,7 +88,7 @@ for (var i = 0; i<10; i++){
             console.log( node_surface, node.feature, node.cost ) ;
             console.log("------------------")
             // output other words in the same span
-            snode = node.enext;
+            var snode = node.enext;
             while( snode ){
                 if( snode.length == node.length ){
                     console.log( "\t", snode.surface, snode.feature, snode.cost ) ;
