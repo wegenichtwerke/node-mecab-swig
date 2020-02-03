@@ -1,6 +1,6 @@
 { "targets": [ { 
-    "target_name": "MeCab_wrap",
-    "sources": [ "MeCab_wrap.cpp" ] , 
+    "target_name": "MeCab",
+    "sources": [ "MeCab_wrap.cxx" ] , 
 
     "cflags": ["-fexceptions" ] , 
     "cflags!": ["-fno-exceptions" ] , 
