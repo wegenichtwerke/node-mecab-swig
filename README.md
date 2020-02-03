@@ -19,6 +19,7 @@ Requirements
 - MeCab (mecab-0.996, mecab-ipadic, mecab-config)
 - Node.js (4.x or 5.x or 6.x)
 - Linux OS
+- g++ ( around 7.3.1 or greater ) 
 
 Install MeCab
 -----
